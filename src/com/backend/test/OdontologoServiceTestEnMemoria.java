@@ -16,7 +16,7 @@ public class OdontologoServiceTestEnMemoria {
         OdontologoService odontologoServiceEnMemoria = new OdontologoService(new OdontologoDaoEnMemoria());
 
         odontologoServiceEnMemoria.registrarOdontologo(new Odontologo(1, 10, "Juan", "Mercado"));
-        odontologoServiceEnMemoria.registrarOdontologo(new Odontologo(1, 10, "Evangelina", "Britos"));
+        odontologoServiceEnMemoria.registrarOdontologo(new Odontologo(1, 11, "Evangelina", "Britos"));
 
         List<Odontologo> listaDeOdontologos = odontologoServiceEnMemoria.listarOdontologos();
 
